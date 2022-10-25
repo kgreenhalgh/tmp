@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cabin&display=swap');
+
+body {
+	height: 100vh;
+	background: linear-gradient(135deg, rgb(195 232 255), rgb(69 194 254) 100%);
+	color: #4438a9;
+	margin: 0;
+	padding: 0;
+	line-height: 24px;
+	font-family: 'Abel', sans-serif;
+	display: block;
+}
+
+nav.navbar {
+	font-family: 'Cabin', sans-serif;
+}
+
+footer {
+	margin-top: 10px;
+	background: linear-gradient(315deg, rgb(69 194 254), rgb(195 232 255) 100%);
+	text-align: center;
+}
+
+img.site {
+	max-width: 300px;
+	max-height: 200px;
+}
+
+#Y371 {
+	position: fixed;
+	bottom: -75px;
+	right: -180px;
+	width: 500px;
+	height: 480px;
+	background-image: url('/static/yeti.png');
+	opacity: 0.05;
+}
